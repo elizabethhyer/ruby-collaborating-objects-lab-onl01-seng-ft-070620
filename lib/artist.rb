@@ -24,7 +24,9 @@ class Artist
   end 
   
   def self.find_or_create_by_name(song)
-    
+    #take name passed in(song)
+    #find artist instance with that name or create one 
+    #either way, return value should be instance of artist with name filled out 
   end 
   
   def print_songs
