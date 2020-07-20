@@ -36,7 +36,7 @@ class Artist
   end 
   
   def print_songs
-    puts Song.all.select {|song|  }
+    Song.all.select {|song| puts song.name if song.artist == self}
   end 
   
 end 
