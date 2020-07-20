@@ -24,7 +24,11 @@ class Artist
     Song.all.select {|song| song.artist == self}
   end 
   
-  def self.find_or_create_by_name(song)
+  def self.find_by_name(name)
+    
+  end 
+  
+  def self.find_or_create_by_name
     #take name passed in(song)
     #find artist instance with that name or create one 
     #either way, return value should be instance of artist with name filled out 
